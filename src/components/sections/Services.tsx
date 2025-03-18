@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import { Pipette, Shower, Wrench, Home, Building2, Trash2, Droplet, Waves } from 'lucide-react';
+import { Pipette, Droplets, Wrench, Home, Building2, Trash2, Droplet, Waves } from 'lucide-react';
 import ServiceCard from '../ui/ServiceCard';
 
 const Services = () => {
@@ -36,7 +36,7 @@ const Services = () => {
       description: "Quick and effective solutions for blocked drains, using advanced techniques to clear any obstruction."
     },
     {
-      icon: <Shower className="h-6 w-6 text-nisa-teal" />,
+      icon: <Droplets className="h-6 w-6 text-nisa-teal" />,
       title: "High-Pressure Jetting",
       description: "Powerful water jets to clean pipe interiors, removing built-up debris and preventing blockages."
     },
