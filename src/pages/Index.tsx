@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '../components/layout/Navbar';
 import Hero from '../components/sections/Hero';
@@ -7,6 +6,7 @@ import About from '../components/sections/About';
 import Testimonials from '../components/sections/Testimonials';
 import Contact from '../components/sections/Contact';
 import Footer from '../components/layout/Footer';
+import FloatingContact from '../components/ui/FloatingContact';
 import { Helmet } from 'react-helmet';
 
 const Index = () => {
@@ -105,6 +105,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <FloatingContact />
     </div>
   );
 };
