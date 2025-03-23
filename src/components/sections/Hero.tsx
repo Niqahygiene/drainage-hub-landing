@@ -115,7 +115,7 @@ const Hero = () => {
                 />
               </div>
               
-              {/* Repositioned bottom card to avoid overlap */}
+              {/* Fixed position to avoid overlap - moved to bottom-right instead of bottom-left */}
               <div className="glass-card absolute -bottom-4 -right-4 p-4 rounded-xl shadow-lg max-w-[220px] animate-fade-in-up z-20" style={{ animationDelay: '0.8s' }}>
                 <div className="flex items-center space-x-3">
                   <div className="bg-nisa-teal/20 p-2 rounded-full">
