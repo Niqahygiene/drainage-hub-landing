@@ -115,7 +115,8 @@ const Hero = () => {
                 />
               </div>
               
-              <div className="glass-card absolute -bottom-6 -left-6 p-4 rounded-xl shadow-lg max-w-[220px] animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
+              {/* Repositioned bottom card to avoid overlap */}
+              <div className="glass-card absolute -bottom-4 -right-4 p-4 rounded-xl shadow-lg max-w-[220px] animate-fade-in-up z-20" style={{ animationDelay: '0.8s' }}>
                 <div className="flex items-center space-x-3">
                   <div className="bg-nisa-teal/20 p-2 rounded-full">
                     <Droplet className="h-6 w-6 text-nisa-teal" />
