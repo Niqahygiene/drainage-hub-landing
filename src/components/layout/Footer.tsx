@@ -37,7 +37,7 @@ const Footer = () => {
             <a href="#home" className="inline-block mb-6">
               <img 
                 src="/lovable-uploads/0527d4b0-08bf-4c21-b366-c803762a7152.png" 
-                alt="Nisa Hygiene" 
+                alt="Niqa Hygiene" 
                 className="h-12 brightness-0 invert"
               />
             </a>
@@ -120,7 +120,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="pt-8 border-t border-white/10 text-center text-gray-400">
-          <p>© {currentYear} Nisa Hygiene. All rights reserved. <a href="http://www.drainagecleaning.ae" className="text-nisa-teal hover:underline">www.drainagecleaning.ae</a></p>
+          <p>© {currentYear} Niqa Hygiene. All rights reserved. <a href="http://www.drainagecleaning.ae" className="text-nisa-teal hover:underline">www.drainagecleaning.ae</a></p>
         </div>
       </div>
     </footer>

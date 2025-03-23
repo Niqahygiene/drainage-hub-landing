@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import Navbar from '../components/layout/Navbar';
 import Hero from '../components/sections/Hero';
@@ -56,7 +57,7 @@ const Index = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "DrainageCleaning.ae",
+    "name": "Niqa Hygiene",
     "image": "https://www.drainagecleaning.ae/og-image.png",
     "description": "Professional drainage cleaning and maintenance services for residential and commercial properties across the UAE.",
     "address": {
@@ -89,7 +90,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>DrainageCleaning.ae | Professional Drainage Services in UAE</title>
+        <title>Niqa Hygiene | Professional Drainage Services in UAE</title>
         <meta name="description" content="Professional drainage cleaning and maintenance services for residential and commercial properties across the UAE. 24/7 emergency service available." />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

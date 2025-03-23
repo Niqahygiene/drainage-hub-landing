@@ -102,7 +102,7 @@ const About = () => {
               }`}
             >
               <Droplet className="mr-1 h-4 w-4" />
-              <span>About Nisa Hygiene</span>
+              <span>About Niqa Hygiene</span>
             </div>
             
             <h2 
@@ -120,7 +120,7 @@ const About = () => {
               }`}
               style={{ animationDelay: '0.2s' }}
             >
-              At Nisa Hygiene, we specialize in providing comprehensive drainage cleaning and maintenance services across the UAE. With years of experience, we've built a reputation for reliability, quality, and exceptional customer service.
+              At Niqa Hygiene, we specialize in providing comprehensive drainage cleaning and maintenance services across the UAE. With years of experience, we've built a reputation for reliability, quality, and exceptional customer service.
             </p>
             
             <div 

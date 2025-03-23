@@ -44,7 +44,7 @@ const Navbar = () => {
           <a href="#home" className="flex items-center">
             <img 
               src="/lovable-uploads/0527d4b0-08bf-4c21-b366-c803762a7152.png" 
-              alt="Nisa Hygiene" 
+              alt="Niqa Hygiene" 
               className="h-10 md:h-12"
             />
           </a>
